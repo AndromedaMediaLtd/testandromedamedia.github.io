@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+
+    <link rel="stylesheet" href="css/css.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro');
+	</style>
+<title>Andromeda Media Ltd - Home</title>
+</head>
+
+<body>
+	<div class="page-wrapper">
+		<header class="top-header clearfix">
+			<nav class="nav-bar">
+				<ul class="clearfix">
+					<li><a href="projects.html">ABOUT US</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="clients.html">CLIENTS</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<div class="colored-button"><li><a href="contact.html">CONTACT US</a></li></div>
+				</ul>
+			</nav>
+			
+			<div class="header-text">
+				<div class="header-text1">
+					<h1>THE AGENCY</h1>
+				</div>
+				<div class="header-text2">
+					<h1>FOR YOU</h1>
+				</div>
+			</div>
+			
+			<div id="logo" align="right"> <img src="images/logo.png"  href="index.html" width="30%" alt="Andromeda Media Ltd"></div>
+		</header>
+			
+		<main class="main">
+			<section class="sections">
+					<div class="section-heading"><h2><div class="heading1">ABOUT</div><div class="heading2">US</div></h2></div>
+				<div class="featured-container">	
+				<div class="featured">
+						<span class="featuredtext"><h2>BASED</h2></span>
+						<div id="about1" class="featured-img"></div>
+						<span class="featuredtext"><p>BELFAST NORTHERN IRELAND</p></span></div>
+					
+					
+					<div class="featured">
+						<span class="featuredtext"><h2>WHY?</h2></span>
+						<div id="about2" class="featured-img"></div>
+						<span class="featuredtext"><p>TO HELP NEW BUSINESSES THRIVE</p></span>
+					</div>
+				</div>
+					<div class="featured-container">
+					<div class="featured">
+						<span class="featuredtext"><h2>WITH</h2></span>
+						<div id="about3" class="featured-img"></div>
+						<span class="featuredtext"><p>PERSONALLY TAILORED PACKAGES</p></span>
+					</div>
+					
+					<div class="featured">
+						<span class="featuredtext"><h2>FOR?</h2></span>
+						<div id="about4" class="featured-img"></div>
+						<span class="featuredtext"><p>SUCCESS!</p></span>
+					</div>
+				
+					<div class="learn-more">LEARN MORE</div>
+				</div>
+				</div>
+			</section>
+			<section class="sections clearfix">
+				<div class="featured-container">
+					<div class="section-heading"><h2><div class="heading1">OUR</div><div class="heading2">SERVICES</div></h2></div>
+					<div class="featured">
+						<div id="services1" class="featured-img"/></div>
+					<span class="featuredtext"><p>SOCIAL MEDIA</p></span>
+					
+					
+					<div class="featured">
+						<div id="services2" class="featured-img"/></div>
+				<span class="featuredtext"><p>WEB DESIGN</p></span>
+					</div>
+				</div>
+					<div class="featured-container">
+					<div class="featured">
+						<div id="services3" class="featured-img"/></div>
+			<span class="featuredtext"><p>BRANDING</p></span>
+					</div>
+					
+					<div class="featured">
+						<div id="services4" class="featured-img"/></div>
+		<span class="featuredtext"><p>STRATEGY</p></span>
+					</div>
+					<div class="learn-more">LEARN MORE</div>
+	</div>
+				</div>
+			</section>
+			<section class="sections clearfix">
+				<div class="featured-container">
+				<div class="contact-image"> 
+				</div>
+					<div class="section-heading"><h2><div class="heading1">LETS</div><div class="heading2">TALK</div></h2></div>
+				<form method="post" name="contact-form" action="php/form-submit-email.php">
+					<div class="contact-form">   
+						<div class="form-group">
+				      	<input type="text" name="name" placeholder="NAME">
+				      	<input type="text" name="email" placeholder="EMAIL">
+					  	<textarea name="message"  placeholder="MESSAGE"></textarea>
+					  	<a href="php/form-submit-email.php"><input type="submit" name="submit" placeholder="SEND NOW"/></a>
+						</div>
+					</div>
+			      </form>
+				</div>
+					
+			</section>
+		</main>
+	</div>
+	<p>Window size: <span id="size"></span>px</p>
+        <script>
+        window.onresize = function() {
+            document.getElementById("size").innerHTML = window.innerWidth;
+        };
+        </script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+::selection {
+  background: deeppink;
+  color: black;
+}
+body::selection {
+  background: deeppink;
+  color: white;
+}
+.top-header {
+	background-image: url(../images/hero-image.png);
+	background-position: center;
+	background-size: cover;
+}
+.header-text{
+	padding-left: 130px;
+	text-align: center;
+	font-size: 42px;
+	
+}
+.header-text1 {
+	width: 620px;
+	color: white;
+	background-color: black;
+}
+.header-text2 {
+	width: 620px;
+	color: black;
+	background:#FFFFFF;
+}
+.page-wrapper{
+	max-width: 1450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	padding-top: 70px;
+	width: 25%;
+	max-width: 350px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right
+}
+.top-header img{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: right;
+    display: inline-table;
+    background-size: cover;
+    padding-left: 0px;
+    float: right;
+}
+nav ul li{
+	display: inline;
+	margin: 5px;
+}
+nav ul {
+  padding-left: 0;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.75rem;
+}
+nav ul li:not(:last-child) {
+  border-right: 2px solid #d2d5e4;
+}
+nav a{
+	text-decoration: none;
+	display: inline;
+	color: white;
+	font-style: normal;
+	transition: opacity 500ms ease-in 1s;
+	padding-bottom: 1px;
+	vertical-align: center;
+}
+nav a:hover{
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left: 0;
+	border-right: 0;
+	padding-top -1;
+}
+nav a{
+	
+}
+.nav-bar:hover li:not(:hover) {
+  opacity: 0.5;
+}
+.colored-button{
+	background-color:#55b7be;
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 20px;
+	border-top-width: 0px;
+	background-size: cover;
+}
+.section-heading{
+	opacity: 1;
+	text-align: center;
+	margin:10px auto 10px auto;
+}
+.learn-more{
+	float: right;
+	background-color:#55b7be;
+	display: inline;
+	color: white;
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+.sections{
+	background-color:#EBEBEB;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	width: 100%;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.featured-container{
+}
+.featured-container2{
+	background:#191919;
+	padding-bottom: 15px;
+	color:white;
+	padding-top: 10px;
+}
+.featured-container3{
+	background:#EBEBEB;
+	padding-bottom: 15px;
+	color:white;
+	padding-top: 10px;
+}
+.featured{
+	opacity: 1;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.featuredheading{
+	display: block;
+
+}
+#about1 {
+	background-image: url(../images/section1-pic1.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+
+	
+}
+#about2 {
+	background-image: url(../images/section1-pic2.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	
+}
+#about3 {
+	background-image: url(../images/section1-pic3.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	
+}
+#about4 {
+	background-image: url(../images/section1-pic4.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	
+}
+#services1{
+	background-image: url(../images/section2-pic1.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+#services2{
+	background-image: url(../images/section2-pic2.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+#services3{
+	background-image: url(../images/section2-pic3.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+#services4{
+	background-image: url(../images/section2-pic4.png);
+	display: content;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+.featured-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+	
+}
+.featuredtext{
+	display: inline;
+	text-align: center;
+	padding: 4px;
+	margin: 10 auto 10 auto;
+}
+.heading1{
+	display: inline;
+	opacity: 1;
+	background-color: black;
+	color: white;
+	padding: 3px;
+	margin: 10 auto 10 auto;
+}
+.heading2{
+	opacity: 1;
+	display: inline;
+	background-color: white;
+	color: black;
+	padding: 3px;
+}
